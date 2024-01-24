@@ -18,5 +18,6 @@ public class giaiptbac1 {
             x=-b / a;
             System.out.println("nghiem cur pr la:"+ x);
         }
+        sc.close();
     }
 }
