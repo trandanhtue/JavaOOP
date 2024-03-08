@@ -1,7 +1,8 @@
 import java.util.Scanner;
 
 public class student {
-    public static void main(String[] args) {
+    
+    
         public String hoten ;
     public int namsinh, mssv,tuoi;
     /**
@@ -30,7 +31,7 @@ public class student {
         System.out.println("tuoi : " + tuoi );
         System.out.println("mssv la : " + mssv );
     }
-}
-   
-    }
-}
+
+} 
+    
+

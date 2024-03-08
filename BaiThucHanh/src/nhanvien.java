@@ -1,9 +1,6 @@
 import java.util.Scanner;
 
 public class nhanvien {
-    public static void main(String[] args) {
-      import java.util.Scanner;
-public class nhanvien {
     public String hoten , chucvu;
     public int tuoi , namsinh;
     void nhaphoten(){
@@ -30,5 +27,5 @@ public class nhanvien {
         System.out.println("tuoi : " + tuoi);
     }
 }  
-    }
-}
+    
+

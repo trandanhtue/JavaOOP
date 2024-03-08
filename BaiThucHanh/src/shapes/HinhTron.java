@@ -1,6 +1,7 @@
+package shapes;
 import java.util.Scanner;
-public class hinhtron {
-    public float r , cv , dt ;
+public class HinhTron {
+  public float r , cv , dt ;
     final float PI = 3.14f;
     void nhapbankinh (){
         System.out.println("r = ");
@@ -16,7 +17,5 @@ public class hinhtron {
     void inthongtin(){
         System.out.println("chu vi = " + cv);
         System.out.println("dien tich = " + dt);
-    }
+    }  
 }
-    
-
