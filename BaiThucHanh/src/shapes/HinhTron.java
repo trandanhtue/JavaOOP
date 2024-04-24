@@ -1,21 +1,6 @@
-package shapes;
-import java.util.Scanner;
-public class HinhTron {
-  public float r , cv , dt ;
-    final float PI = 3.14f;
-    void nhapbankinh (){
-        System.out.println("r = ");
-        Scanner Sc = new Scanner(System.in);
-        r = Sc.nextFloat();
+public class hinhtron2 {
+    public void inthongtin(){
+     System.out.println("hinh tron ");
     }
-    void tinhchuvi(){
-        cv = 2 * PI * r;
-    }
-    void tinhdientich(){
-        dt = PI * r * r;
-    }
-    void inthongtin(){
-        System.out.println("chu vi = " + cv);
-        System.out.println("dien tich = " + dt);
-    }  
+    
 }
