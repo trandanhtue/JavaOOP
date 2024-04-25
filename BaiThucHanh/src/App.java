@@ -16,6 +16,12 @@ public class App {
         // nv.nhapnamsinh();
         // nv.tinhtuoi();
         // nv.inthongtin();
-
+        // animal a = new cho();
+        // a.Run();
+        xe x = new xe ();
+        x.Run(); 
+        
+        }
     }
-}
+
+
