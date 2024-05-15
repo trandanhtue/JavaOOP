@@ -18,6 +18,7 @@ public class nvfulltime extends nhanvien{
     this.chucvu = chucvu;
     }
     public String loainhanvien(){
+        Object configs;
         if ( chucvu == configs.nv_linh){
             return " linh fulltime";
         }else {
@@ -25,7 +26,11 @@ public class nvfulltime extends nhanvien{
         }
     
     }
+    /**
+     * 
+     */
     public void tinhluong(){
+        Object configs;
         if ( chucvu == configs.nv_linh){
             luong = configs.luong_nv_fulltime_linh + ngaylamthem * configs.luong_fulltime;
         }else if ( chucvu == configs.nv_sep){
